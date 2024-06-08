@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/STYLE.CSS">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><i class="fa fa-television" aria-hidden="true"></i>Furniture</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Products</a>
+        <a href="about us.html">About us</a>
+        <a href="contact.html">Contact us</a>
+        <a href="fedback.html">feedback</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div> 
+    </div>
+    <form class="search-form">
+      <input type="search" id="search-box" placeholder="Search here...">
+      <label for="search-box" class="fa fa-search"> </label>
+  </form>
+<!--  shoppong cart-->
+<div class="cart">
+<div class="cart-title">Cart Items</div>
+<div class="cart-content">
+<!--<div class="cart-box">
+<img src="S1.jpeg" class="cart-img">
+<div class="detail-box">
+  <div class="cart-food-title">Special Dosai</div>
+  <div class="price-box">
+    <div class="cart-price">Rs.72</div>
+     <div class="cart-amt">Rs.72</div>
+ </div>
+  <input type="number" value="1" class="cart-quantity">
+</div>
+<i class="fa fa-trash" id="cart-remove"></i>
+</div>
+<div class="cart-box">
+<img src="S1.jpeg" class="cart-img">
+<div
+ class="detail-box">
+  <div class="cart-food-title">Special Dosai</div>
+  <div class="price-box">
+    <div class="cart-price">Rs.72</div>
+     <div class="cart-amt">Rs.72</div>
+ </div>
+  <input type="number" value="1" class="cart-quantity">
+</div>
+<i class="fa fa-trash" id="cart-remove"></i>
+</div>-->
+</div>
+
+
+<div class="total">
+<div class="total-title">Total</div>
+<div class="total-price">Rs.0</div>
+</div>
+<a href="blank.html"><button id="btn-buy" class="buy-now">buy now</button></a>
+<i class="fa fa-times" id="cart-close"></i>
+</div>
+
+<!-- shoping cart-->
+
+
+<form action="#"class="login-form">
+<h3>login now</h3>
+<input type="email"placeholder="your email" class="box">
+<input type="password"placeholder="your password" class="box">
+
+<p>forgot your password <a href="#"> Click Here</a></p>
+<p>Don't Have  An Account<a href="#">Create Now</a></p>
+
+<input type="submit" value="Login now" class="btn">
+</form>
+
+</header>
+
+  <section class="About Us" style="margin-top: 10rem;">
+    <h1 class="heading"> <span>feedback</span> </h1>
+    <div class="container">    
+      <form>    
+        <div class="row">    
+          <div class="col-25">    
+            <label for="fname" style="font-size: 20px;">First Name</label>    
+          </div>    
+          <div class="col-75">    
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+          </div>    
+        </div>    
+        <div class="row">    
+          <div class="col-25">    
+            <label for="lname" style="font-size: 20px;">Last Name</label>    
+          </div>    
+          <div class="col-75">    
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+          </div>    
+        </div>    
+        <div class="row">    
+            <div class="col-25">    
+              <label for="email" style="font-size: 20px;">Mail Id</label>    
+            </div>    
+            <div class="col-75">    
+              <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+            </div>    
+          </div>    
+        <div class="row">    
+          <div class="col-25">    
+            <label for="country" style="font-size: 20px;">City</label>    
+          </div>    
+          <div class="col-75">    
+            <select id="country" name="country">    
+                <option value="none">Select City</option>    
+              <option value="australia">phaltan</option>    
+              <option value="canada">lonand</option>    
+              <option value="usa">dhaval</option>    
+              <option value="russia">vidani</option>    
+              <option value="japan">wathar</option>    
+              <option value="india">dahiwadi</option>    
+              <option value="china">natepute</option>    
+            </select>    
+          </div>    
+        </div>    
+        <div class="row">    
+          <div class="col-25">    
+            <label for="feed_back" style="font-size: 20px;">Feed Back</label>    
+          </div>    
+          <div class="col-75">    
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+          </div>    
+        </div>    
+        <div class="row">    
+          <input type="submit" value="Submit">    
+        </div>    
+      </form>    
+    </div>    
+     
+       <!--Footer Section-->
+       <section class="footer" id="Contact Us">
+           <div class="footer-container">
+           <div class="footer-content">
+           <h3>social links</h3>
+           <a href="#" ><i class="fa fa-facebook-square"></i>facebook</a>
+           <a href="#"><i class="fa fa-instagram"></i>instagram</a>
+           <a href="#"><i class="fa fa-twitter-square"></i>twitter</a>
+           <a href="#"><i class="fa fa-linkedin-square"></i>linkdin</a>
+           </div>
+           
+           <div class="footer-content">
+           <h3>contact info</h3>
+           <a href="#" class="number"><i class="fa fa-phone-square"></i>+91 7796119929</a>
+           <a href="#" class="number"><i class="fa fa-phone-square"></i>+91 93563 91632</a>
+           <a href="#" class="number"><i class="fa fa-envelope-square"></i>ajitraut@gmail.com</a>
+           <a href="#" class="number"><i class="fa fa-map-marker"></i>phaltan,maharashtra</a>
+           </div>
+           
+           <div class="footer-content">
+           <h3>quick links</h3>
+           <a href="#"><i class="fa fa-arrow-right"></i>home</a>
+           <a href="#"><i class="fa fa-arrow-right"></i>shop</a>
+           <a href="#" ><i class="fa fa-arrow-right"></i>about us</a>
+           <a href="#" ><i class="fa fa-arrow-right"></i>contact us</a>
+    <a href="fedback.html" ><i class="fa fa-arrow-right"></i>feedback</a>
+           </div>
+         </section>
+         <div class="credit">
+          created by shriram furniture shop|| all rights reserved. 
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
